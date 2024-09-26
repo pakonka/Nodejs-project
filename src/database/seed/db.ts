@@ -21,35 +21,35 @@ mongoose
     console.error("Failed to Connect to MongoDB", err);
   });
 
-const students = [
-  {
-    id: "1",
-    fullName: "Ngô Quốc Long",
-    age: 25,
-    email: "long.nq@gmail.com",
-    mobile: "0988777666",
-    class: "batch179",
-  },
-  {
-    id: "2",
-    fullName: "Trần Văn A",
-    age: 22,
-    email: "tran.va@gmail.com",
-    mobile: "0123456789",
-    class: "batch180",
-  },
-  {
-    id: "3",
-    fullName: "Lê Thị B",
-    age: 23,
-    email: "le.thi.b@gmail.com",
-    mobile: "0987654321",
-    class: "batch181",
-  },
-];
+// const students = [
+//   {
+//     id: "1",
+//     fullName: "Ngô Quốc Long",
+//     age: 25,
+//     email: "long.nq@gmail.com",
+//     mobile: "0988777666",
+//     class: "batch179",
+//   },
+//   {
+//     id: "2",
+//     fullName: "Trần Văn A",
+//     age: 22,
+//     email: "tran.va@gmail.com",
+//     mobile: "0123456789",
+//     class: "batch180",
+//   },
+//   {
+//     id: "3",
+//     fullName: "Lê Thị B",
+//     age: 23,
+//     email: "le.thi.b@gmail.com",
+//     mobile: "0987654321",
+//     class: "batch181",
+//   },
+// ];
 const runDB = async () => {
-  console.log("runDB running....");
-  await Student.insertMany(students);
+  // console.log("runDB running....");
+  // await Student.insertMany(students);
 };
 
 try {
